@@ -12,7 +12,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Run yor action
-        uses: bridgecrewio/yor-action@main
+        uses: bridgecrewio/yor-action@97874abd0138bd4f62cf7fc1971530ef8dd1854e # main
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
         with:
